@@ -11,18 +11,17 @@ console.log('hello world');
 *Added step* 4.1 - Find the max profit by finding the max of the potential profit using Math.max
 5. Return that answer to the function
 */
-
+let stockPricesYesterday = [12,14,5,2,4,6,73,2];
 // Step 1 and 2
 
 function getMaxProfit (stockPricesYesterday) {
-var stockPricesYesterday = [12,14,5,2,4,6,73,2];
+
 // Step 2.1
   for (var earlierMinute = 0; earlierMinute < stockPricesYesterday.length; earlierMinute++ ) {
     for (var laterMinute = 0; laterMinute < stockPricesYesterday.length; laterMinute++) {
       // Step 2.2
       var earlier = Math.min(earlierMinute, laterMinute);
       var later = Math.max(earlierMinute, laterMinute);
-
       // Step 3
       var earliestValue = stockPricesYesterday[earlier];
       var latestValue = stockPricesYesterday[later];
@@ -38,6 +37,3 @@ var stockPricesYesterday = [12,14,5,2,4,6,73,2];
   return maxProfit;
   console.log(maxProfit);
 }
-
-// Let's test it
-getMaxProfit();
