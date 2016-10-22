@@ -33,8 +33,7 @@ function getMaxProfit (stockPricesYesterday) {
     }
   }
   // Step 5
-  return 'Your max profit will be $' + maxProfit + '!'
-
+  return 'Your max profit will be $' + maxProfit + '!';
 }
 
 // Better solution for Q1
@@ -43,7 +42,6 @@ function findMaxProfit(stockPricesYesterday) {
   if (stockPricesYesterday.length < 2) {
     alert('Sorry, you need to input at least 2 values.');
   }
-
   // "greedy algorithm" to get first price and first possible profit
   var minPrice = stockPricesYesterday[0];
   var maxProfit = stockPricesYesterday[1] - stockPricesYesterday[0];
@@ -64,3 +62,5 @@ function findMaxProfit(stockPricesYesterday) {
   }
   return 'According to these stocks, your maximum profit will be $' + maxProfit + '.';
 }
+
+// learned the greedy algorithm. I'm sure it will be used in Q2 as well. 
