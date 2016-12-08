@@ -63,4 +63,10 @@ function findMaxProfit(stockPricesYesterday) {
   return 'According to these stocks, your maximum profit will be $' + maxProfit + '.';
 }
 
-// learned the greedy algorithm. I'm sure it will be used in Q2 as well. 
+// learned the greedy algorithm. I'm sure it will be used in Q2 as well.
+
+
+// Answer for Question 3, function for a PHP "xor" (exclusive or) logical operator
+function xor(a, b) {
+  return a != b
+}
