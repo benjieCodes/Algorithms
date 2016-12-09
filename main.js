@@ -70,3 +70,12 @@ function findMaxProfit(stockPricesYesterday) {
 function xor(a, b) {
   return a != b
 }
+
+// Answer for Question 4, function for someone who is playing the banjo or not
+function areYouPlayingBanjo(name) {
+  if (name[0] === 'r' || name[0] === 'R') {
+    return name + ' plays the banjo';
+  } else {
+    return name + ' does not play the banjo';
+  }
+}
