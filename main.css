@@ -16,3 +16,7 @@ body {
 .answer {
   color: HSL(84, 66%, 73%);
 }
+
+ul {
+  list-style-type: none;
+}

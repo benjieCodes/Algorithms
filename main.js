@@ -79,3 +79,13 @@ function areYouPlayingBanjo(name) {
     return name + ' does not play the banjo';
   }
 }
+
+// Answer for Question 5, function to see if there is the same amount of x and o in a string
+function XO (str) {
+  var count = 0;
+  for (var i = 0; i < str.length; i++) {
+    if(str[i].toLowerCase() == 'x') count++;
+    if(str[i].toLowerCase() == 'o') count--;
+  }
+  return count == 0;
+}
