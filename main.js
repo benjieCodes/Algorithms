@@ -89,3 +89,8 @@ function XO (str) {
   }
   return count == 0;
 }
+
+// Answer for Question 6, function to add odd numbers together dependent on how many rows
+function oddPyramid(number) {
+  return Math.pow(n, 3);
+}
