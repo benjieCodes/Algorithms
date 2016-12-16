@@ -94,3 +94,15 @@ function XO (str) {
 function oddPyramid(number) {
   return Math.pow(n, 3);
 }
+
+// Answer for Question 7, function to create a vacation discount
+function rentalCarCost(d) {
+  var total = d * 40
+  if (d >= 3 && d < 7) {
+    return (total) - 20;
+  } else if (d >= 7) {
+    return (total) - 50;
+  } else {
+    return total;
+  }
+}
