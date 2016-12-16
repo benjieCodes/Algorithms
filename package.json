@@ -1,0 +1,19 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "learning algorithms and js commands",
+  "main": "main.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjieCodes/Algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjieCodes/Algorithms/issues"
+  },
+  "homepage": "https://github.com/benjieCodes/Algorithms#readme"
+}
